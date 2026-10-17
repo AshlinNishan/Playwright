@@ -14,5 +14,6 @@ test('Alert Handling', async({page})=> {
     })
     await page.locator('//button[@onclick="promptbox()"]').click()
 
-    console.log('The Prompt Alert Message is : ', 'promptAlertMessage.textContent()')
+    console.log('The Prompt Alert Message is 1: ', 'promptAlertMessage.textContent()')
 })
+
