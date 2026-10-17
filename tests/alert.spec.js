@@ -10,7 +10,7 @@ test('Alert Handling', async({page})=> {
         console.log('The Prompt Alert Message is : ', promptAlertHandling.message())
         await promptAlertHandling.accept('Trendknowledges');
 
-        console.log('The Prompt Alert Message is one : ', 'promptAlertMessage.textContent()')
+        console.log('The Prompt Alert Message is one missing message: ', 'promptAlertMessage.textContent()')
     })
     await page.locator('//button[@onclick="promptbox()"]').click()
 
